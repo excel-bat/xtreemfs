@@ -39,6 +39,8 @@ import org.xtreemfs.foundation.pbrpc.channels.SSLHandshakeOnlyChannelIO;
 import org.xtreemfs.foundation.util.OutputUtils;
 
 /**
+ * 是dir 和外界通信的关键和入口，采用poll方式
+ *
  * @author bjko
  */
 public class RPCNIOSocketServer extends LifeCycleThread implements RPCServerInterface {

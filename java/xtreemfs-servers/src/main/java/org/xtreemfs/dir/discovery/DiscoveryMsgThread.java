@@ -22,6 +22,7 @@ import org.xtreemfs.pbrpc.generatedinterfaces.Common.emptyRequest;
 import org.xtreemfs.pbrpc.generatedinterfaces.DIR.DirService;
 
 /**
+ * 收发udp 数据报消息
  *
  * @author bjko
  */

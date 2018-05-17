@@ -25,6 +25,8 @@ import org.xtreemfs.foundation.logging.Logging.Category;
  * Acceptor for MultiPaXos Lease negotiation (MPXLN).
  * This version has no persistent state.
  *
+ *  接收者
+ *
  * @author bjko
  */
 public class FleaseAcceptor {

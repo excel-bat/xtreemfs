@@ -18,6 +18,8 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * The class provides the ability to monitor data. The data must be added via push (put-method). For getting the
  * contained data poll (get-method) and push (via listeners) is supported.<br>
  * NOTE: This class is thread-safe. <br>
+ *
+ * 监控mrc osd 服务信息的heartbeat ,发送邮件通知
  * 22.07.2009
  */
 public class Monitoring<V> {

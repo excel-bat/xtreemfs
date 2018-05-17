@@ -72,7 +72,9 @@ import org.xtreemfs.pbrpc.generatedinterfaces.DIR.ServiceType;
 import org.xtreemfs.pbrpc.generatedinterfaces.DIRServiceConstants;
 
 /**
- * 
+ *
+ * 从请求队列中取出请求，并分发处理
+ *
  * @author bjko
  */
 public class DIRRequestDispatcher extends LifeCycleThread implements RPCServerRequestListener,
@@ -244,7 +246,11 @@ public class DIRRequestDispatcher extends LifeCycleThread implements RPCServerRe
         
         
     }
-    
+
+
+    /**
+     * deamon 进程,会一直检测消息
+     */
     @Override
     public void run() {
         try {
@@ -382,6 +388,7 @@ public class DIRRequestDispatcher extends LifeCycleThread implements RPCServerRe
     
     @Override
     public void receiveRecord(RPCServerRequest rq) {
+
         if (Logging.isDebug())
             Logging.logMessage(Logging.LEVEL_DEBUG, Category.stage, this, "received new request: %s", rq
                     .toString());

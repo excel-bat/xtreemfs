@@ -19,6 +19,8 @@ import org.xtreemfs.foundation.pbrpc.generatedinterfaces.RPC;
 
 /**
  *
+ *  rpc 消息类型
+ *
  * @author bjko
  */
 public class RPCServerRequest {

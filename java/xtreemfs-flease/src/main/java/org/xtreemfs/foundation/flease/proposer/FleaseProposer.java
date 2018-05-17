@@ -33,6 +33,7 @@ import org.xtreemfs.foundation.logging.Logging.Category;
 
 /**
  *
+ * 租约请求者
  * @author bjko
  */
 public class FleaseProposer {

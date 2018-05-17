@@ -16,6 +16,8 @@ import org.xtreemfs.foundation.logging.Logging.Category;
 
 /**
  * This class can be used to start a new instance of the Directory Service.
+ *
+ * 作为dir 的入口函数
  * 
  * @author stender
  * 
@@ -28,7 +30,7 @@ public class DIR {
      */
     public static void main(String[] args) throws IOException {
 
-        String configFileName = "etc/xos/xtreemfs/dirconfig.test";
+        String configFileName = "../etc/xos/xtreemfs/dirconfig.test";
         if (args.length != 1) 
             System.out.println("using default config file " + configFileName);
         else 

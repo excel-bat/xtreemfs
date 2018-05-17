@@ -396,6 +396,10 @@ public final class ReusableBuffer {
         return buffer.getInt();
     }
 
+    public ReusableBuffer() {
+        super();
+    }
+
     /**
      * @see java.nio.ByteBuffer#putInt(int)
      */
