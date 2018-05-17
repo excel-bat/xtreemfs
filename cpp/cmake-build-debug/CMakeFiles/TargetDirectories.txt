@@ -1,0 +1,11 @@
+/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/CMakeFiles/xtfsutil.dir
+/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/CMakeFiles/mount.xtreemfs.dir
+/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/CMakeFiles/lsfs.xtreemfs.dir
+/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/CMakeFiles/rmfs.xtreemfs.dir
+/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/CMakeFiles/mkfs.xtreemfs.dir
+/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/CMakeFiles/example_replication.dir
+/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/CMakeFiles/example_libxtreemfs.dir
+/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/CMakeFiles/jni-xtreemfs.dir
+/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/CMakeFiles/xtreemfs.dir

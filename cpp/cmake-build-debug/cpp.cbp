@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xtfsutil">
+				<Option output="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/xtfsutil" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DHAS_OPENSSL"/>
+					<Add directory="/usr/local/include/osxfuse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/protobuf-2.6.1/src"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/gtest-1.7.0/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 xtfsutil"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xtfsutil/fast">
+				<Option output="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/xtfsutil" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DHAS_OPENSSL"/>
+					<Add directory="/usr/local/include/osxfuse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/protobuf-2.6.1/src"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/gtest-1.7.0/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 xtfsutil/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mount.xtreemfs">
+				<Option output="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/mount.xtreemfs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DHAS_OPENSSL"/>
+					<Add directory="/usr/local/include/osxfuse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/protobuf-2.6.1/src"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/gtest-1.7.0/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 mount.xtreemfs"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mount.xtreemfs/fast">
+				<Option output="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/mount.xtreemfs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DHAS_OPENSSL"/>
+					<Add directory="/usr/local/include/osxfuse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/protobuf-2.6.1/src"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/gtest-1.7.0/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 mount.xtreemfs/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lsfs.xtreemfs">
+				<Option output="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/lsfs.xtreemfs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DHAS_OPENSSL"/>
+					<Add directory="/usr/local/include/osxfuse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/protobuf-2.6.1/src"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/gtest-1.7.0/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 lsfs.xtreemfs"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lsfs.xtreemfs/fast">
+				<Option output="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/lsfs.xtreemfs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DHAS_OPENSSL"/>
+					<Add directory="/usr/local/include/osxfuse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/protobuf-2.6.1/src"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/gtest-1.7.0/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 lsfs.xtreemfs/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rmfs.xtreemfs">
+				<Option output="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/rmfs.xtreemfs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DHAS_OPENSSL"/>
+					<Add directory="/usr/local/include/osxfuse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/protobuf-2.6.1/src"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/gtest-1.7.0/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rmfs.xtreemfs"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rmfs.xtreemfs/fast">
+				<Option output="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/rmfs.xtreemfs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DHAS_OPENSSL"/>
+					<Add directory="/usr/local/include/osxfuse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/protobuf-2.6.1/src"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/gtest-1.7.0/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rmfs.xtreemfs/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mkfs.xtreemfs">
+				<Option output="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/mkfs.xtreemfs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DHAS_OPENSSL"/>
+					<Add directory="/usr/local/include/osxfuse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/protobuf-2.6.1/src"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/gtest-1.7.0/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 mkfs.xtreemfs"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mkfs.xtreemfs/fast">
+				<Option output="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/mkfs.xtreemfs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DHAS_OPENSSL"/>
+					<Add directory="/usr/local/include/osxfuse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/protobuf-2.6.1/src"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/gtest-1.7.0/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 mkfs.xtreemfs/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_replication">
+				<Option output="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/example_replication" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DHAS_OPENSSL"/>
+					<Add directory="/usr/local/include/osxfuse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/protobuf-2.6.1/src"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/gtest-1.7.0/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_replication"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_replication/fast">
+				<Option output="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/example_replication" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DHAS_OPENSSL"/>
+					<Add directory="/usr/local/include/osxfuse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/protobuf-2.6.1/src"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/gtest-1.7.0/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_replication/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_libxtreemfs">
+				<Option output="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/example_libxtreemfs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DHAS_OPENSSL"/>
+					<Add directory="/usr/local/include/osxfuse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/protobuf-2.6.1/src"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/gtest-1.7.0/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_libxtreemfs"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_libxtreemfs/fast">
+				<Option output="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/example_libxtreemfs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DHAS_OPENSSL"/>
+					<Add directory="/usr/local/include/osxfuse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/protobuf-2.6.1/src"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/gtest-1.7.0/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_libxtreemfs/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jni-xtreemfs">
+				<Option output="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/libjni-xtreemfs.jnilib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DHAS_OPENSSL"/>
+					<Add directory="/usr/local/include/osxfuse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/protobuf-2.6.1/src"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/gtest-1.7.0/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 jni-xtreemfs"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jni-xtreemfs/fast">
+				<Option output="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/libjni-xtreemfs.jnilib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DHAS_OPENSSL"/>
+					<Add directory="/usr/local/include/osxfuse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/protobuf-2.6.1/src"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/gtest-1.7.0/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 jni-xtreemfs/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xtreemfs">
+				<Option output="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/libxtreemfs.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DHAS_OPENSSL"/>
+					<Add directory="/usr/local/include/osxfuse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/protobuf-2.6.1/src"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/gtest-1.7.0/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 xtreemfs"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xtreemfs/fast">
+				<Option output="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/libxtreemfs.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DHAS_OPENSSL"/>
+					<Add directory="/usr/local/include/osxfuse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/protobuf-2.6.1/src"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/thirdparty/gtest-1.7.0/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include"/>
+					<Add directory="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include"/>
+					<Add directory="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 xtreemfs/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/include/Common.pb.cc">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/include/Common.pb.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/include/PBRPC.pb.cc">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/include/PBRPC.pb.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/pbrpc/Ping.pb.cc">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/pbrpc/Ping.pb.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/pbrpc/PingServiceClient.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/pbrpc/PingServiceConstants.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/pbrpc/RPC.pb.cc">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/pbrpc/RPC.pb.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/swig/xtreemfsJAVA_wrap.cpp">
+			<Option target="jni-xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/xtreemfs/DIR.pb.cc">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/xtreemfs/DIR.pb.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/xtreemfs/DIRServiceClient.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/xtreemfs/DIRServiceConstants.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/xtreemfs/GlobalTypes.pb.cc">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/xtreemfs/GlobalTypes.pb.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/xtreemfs/MRC.pb.cc">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/xtreemfs/MRC.pb.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/xtreemfs/MRCServiceClient.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/xtreemfs/MRCServiceConstants.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/xtreemfs/OSD.pb.cc">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/xtreemfs/OSD.pb.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/xtreemfs/OSDServiceClient.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/xtreemfs/OSDServiceConstants.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/xtreemfs/get_request_message.cc">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/generated/xtreemfs/get_request_message.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/async_write_buffer.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/async_write_handler.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/client.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/client_implementation.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/container_uuid_iterator.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/execute_sync_request.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/file_handle.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/file_handle_implementation.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/file_info.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/helper.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/interrupt.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/metadata_cache.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/metadata_cache_entry.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/object_cache.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/options.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/pbrpc_url.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/simple_uuid_iterator.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/stripe_translator.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/system_user_mapping.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/system_user_mapping_unix.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/system_user_mapping_windows.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/typedefs.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/user_mapping.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/user_mapping_gridmap.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/user_mapping_gridmap_globus.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/user_mapping_gridmap_unicore.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/user_mapping_unix.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/uuid_cache.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/uuid_container.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/uuid_item.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/uuid_iterator.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/uuid_resolver.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/version_management.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/vivaldi.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/vivaldi_node.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/volume.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/volume_implementation.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/xcap_handler.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/libxtreemfs/xtreemfs_exception.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/rpc/abstract_socket_channel.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/rpc/callback_interface.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/rpc/client.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/rpc/client_connection.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/rpc/client_request.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/rpc/client_request_callback_interface.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/rpc/grid_ssl_socket_channel.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/rpc/record_marker.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/rpc/ssl_options.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/rpc/ssl_socket_channel.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/rpc/sync_callback.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/rpc/tcp_socket_channel.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/util/annotations.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/util/error_log.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/util/logging.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/util/synchronized_queue.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/include/util/zipf_generator.h">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/example_libxtreemfs/example_libxtreemfs.cpp">
+			<Option target="example_libxtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/example_libxtreemfs/example_replication.cpp">
+			<Option target="example_replication"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/fuse/fuse_adapter.cpp">
+			<Option target="mount.xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/fuse/fuse_operations.cpp">
+			<Option target="mount.xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/fuse/fuse_options.cpp">
+			<Option target="mount.xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/fuse/mount.xtreemfs.cpp">
+			<Option target="mount.xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/json/jsoncpp.cpp">
+			<Option target="xtfsutil"/>
+			<Option target="mount.xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/async_write_buffer.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/async_write_handler.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/client.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/client_implementation.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/container_uuid_iterator.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/execute_sync_request.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/file_handle_implementation.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/file_info.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/helper.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/interrupt.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/metadata_cache.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/metadata_cache_entry.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/options.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/pbrpc_url.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/simple_uuid_iterator.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/stripe_translator.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/system_user_mapping.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/system_user_mapping_unix.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/system_user_mapping_windows.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/user_mapping.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/user_mapping_gridmap.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/user_mapping_gridmap_globus.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/user_mapping_gridmap_unicore.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/uuid_cache.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/uuid_container.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/uuid_iterator.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/vivaldi.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/vivaldi_node.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/libxtreemfs/volume_implementation.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/lsfs.xtreemfs/lsfs.xtreemfs.cpp">
+			<Option target="lsfs.xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/lsfs.xtreemfs/lsfs_options.cpp">
+			<Option target="lsfs.xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/mkfs.xtreemfs/mkfs.xtreemfs.cpp">
+			<Option target="mkfs.xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/mkfs.xtreemfs/mkfs_options.cpp">
+			<Option target="mkfs.xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/rmfs.xtreemfs/rmfs.xtreemfs.cpp">
+			<Option target="rmfs.xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/rmfs.xtreemfs/rmfs_options.cpp">
+			<Option target="rmfs.xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/rpc/client.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/rpc/client_connection.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/rpc/client_request.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/rpc/record_marker.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/rpc/sync_callback.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/util/error_log.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/util/logging.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/util/zipf_generator.cpp">
+			<Option target="jni-xtreemfs"/>
+			<Option target="xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/xtfsutil/xtfsutil.cpp">
+			<Option target="xtfsutil"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/src/xtfsutil/xtfsutil_server.cpp">
+			<Option target="mount.xtreemfs"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake/FindValgrind.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

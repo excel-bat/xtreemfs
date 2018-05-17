@@ -1,0 +1,23 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/shanyingbo/IdeaProjects/xdfs/cpp
+-- Boost version: 1.62.0
+-- Boost version: 1.62.0
+-- Found the following Boost libraries:
+--   system
+--   thread
+--   program_options
+--   regex
+--   chrono
+--   date_time
+--   atomic
+-- Could NOT find VALGRIND (missing:  VALGRIND_INCLUDE_DIR) 
+CMake Warning at CMakeLists.txt:174 (message):
+  Valgrind headers not found, running memcheck might report false positives.
+
+
+-- Configuring XtreemFS Client Library (libxtreemfs) and Volume Tools ({mkfs,rmfs,lsfs}.xtreemfs).
+-- Configuring XtreemFS Fuse Adapter (mount.xtreemfs).
+-- Configuring JNI Library.
+-- Found JNI: /Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/libjawt.dylib  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/shanyingbo/IdeaProjects/xdfs/cpp/cmake-build-debug
