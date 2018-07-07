@@ -7,7 +7,9 @@
 package org.xtreemfs.mrc.metadata;
 
 /**
- * API for a representation of a file voucher tuple.
+ *
+ *
+ * .
  */
 public interface FileVoucherInfo {
 

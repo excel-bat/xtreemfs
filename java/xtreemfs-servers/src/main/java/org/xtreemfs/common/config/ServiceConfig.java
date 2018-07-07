@@ -49,6 +49,7 @@ public class ServiceConfig extends Config {
         USE_SSL("ssl.enabled", false, Boolean.class, false),
         SSL_PROTOCOL_STRING("ssl.protocol", null, String.class, false),
         SERVICE_CREDS_FILE("ssl.service_creds", null, String.class, false ),
+        //credentials 证书 密码
         SERVICE_CREDS_PASSPHRASE("ssl.service_creds.pw", null, String.class, false),
         SERVICE_CREDS_CONTAINER("ssl.service_creds.container", null, String.class, false),
         TRUSTED_CERTS_FILE("ssl.trusted_certs", null, String.class, false),
@@ -58,6 +59,7 @@ public class ServiceConfig extends Config {
         GEO_COORDINATES("geographic_coordinates", "", String.class, false ),
         ADMIN_PASSWORD("admin_password", "", String.class, false),
         HOSTNAME("hostname", "", String.class, false ),
+        //使用网格ssl模式
         USE_GRID_SSL_MODE("ssl.grid_ssl", false, Boolean.class, false),
         WAIT_FOR_DIR("startup.wait_for_dir", 30, Integer.class, false),
         POLICY_DIR("policy_dir", "/etc/xos/xtreemfs/policies/", String.class, false),
@@ -231,6 +233,7 @@ public class ServiceConfig extends Config {
             };
 
     /**
+     * 检查 初始化到dir的连接和 剩余的配置 是否包含在 "所有需要的配置参数"中
      * Checks if there are all required configuration parameter to initialize a connection to the DIR and
      * request the rest of the configuration
      *
@@ -737,6 +740,7 @@ public class ServiceConfig extends Config {
     }
 
     /**
+     * 检查是否ssl 的配置
      * Checks if the SSL Configuration is valid. If not throws a {@link RuntimeException}.
      *
      * @throws RuntimeException

@@ -21,6 +21,9 @@ import org.xtreemfs.pbrpc.generatedinterfaces.DIR.Configuration;
 import org.xtreemfs.pbrpc.generatedinterfaces.DIRServiceClient;
 import org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes.KeyValuePair;
 
+/**
+ * 远端配置工具类
+ */
 public class RemoteConfigHelper {
     public static ServiceConfig getConfigurationFromDIR(ServiceConfig config) throws Exception {
         TimeSync ts = null;

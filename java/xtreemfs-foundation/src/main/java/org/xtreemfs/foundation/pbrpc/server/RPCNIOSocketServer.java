@@ -121,6 +121,17 @@ public class RPCNIOSocketServer extends LifeCycleThread implements RPCServerInte
         this(bindPort, bindAddr, rl, sslOptions, bindRetries, receiveBufferSize, DEFAULT_MAX_CLIENT_Q_LENGTH);
     }
 
+    /**
+     * RPCNIO 的socketServer
+     * @param bindPort
+     * @param bindAddr
+     * @param rl
+     * @param sslOptions
+     * @param bindRetries
+     * @param receiveBufferSize
+     * @param maxClientQLength
+     * @throws IOException
+     */
     public RPCNIOSocketServer(int bindPort, InetAddress bindAddr, RPCServerRequestListener rl,
                               SSLOptions sslOptions, int bindRetries, int receiveBufferSize,
                               int maxClientQLength) throws IOException {
@@ -152,6 +163,7 @@ public class RPCNIOSocketServer extends LifeCycleThread implements RPCServerInte
         long waitTime = 1000;
         do {
             try {
+
                 ++bindTry;
                 socket.socket().bind(
                         bindAddr == null ? new InetSocketAddress(bindPort) : new InetSocketAddress(bindAddr, bindPort));

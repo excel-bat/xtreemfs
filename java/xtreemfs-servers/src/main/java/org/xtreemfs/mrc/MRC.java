@@ -82,7 +82,7 @@ public class MRC {
         
         Thread.currentThread().setName("MRC");
         
-        String configFileName = "etc/xos/xtreemfs/mrcconfig.test";
+        String configFileName = "../etc/xos/xtreemfs/mrcconfig.test";
         
         configFileName = (args.length == 1) ? args[0] : configFileName;
         

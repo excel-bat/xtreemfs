@@ -8,6 +8,7 @@
 package org.xtreemfs.osd.storage;
 
 /**
+ * 实现不同 copy on write 策略
  * This class implements differen copy-on-write strategies.
  * 
  * @author bjko

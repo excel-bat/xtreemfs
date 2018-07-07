@@ -33,6 +33,8 @@ import org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes.Replicas;
 import org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes.VivaldiCoordinates;
 
 /**
+ * 定期检查每个卷的合适OSD
+ *
  * Checks regularly for suitable OSDs for each volume.
  * 
  * @author bjko
@@ -40,31 +42,38 @@ import org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes.VivaldiCoordinates;
 public class OSDStatusManager extends LifeCycleThread implements VolumeChangeListener {
     
     /**
+     * 两次检查之间的间隔
      * Interval in ms to wait between two checks.
      */
     private int                                checkIntervalMillis = 1000 * 5;
     
     /**
+     * 与该线程一起注册的卷列表
      * A list of volumes registered with the thread.
      */
     private final Map<String, VolumeOSDFilter> volumeMap;
     
     /**
+     * 从目录服务中获取的最新一套已知OSD。
+     *
      * The latest set of all known OSDs fetched from the Directory Service.
      */
     private ServiceSet.Builder                 knownOSDs;
     
     /**
+     * 根据uuid排序的osd map
      * A map containing all known OSDs sorted by their UUIDs.
      */
     private final Map<String, Service>               knownOSDMap;
     
     /**
+     * 退出线程标志
      * Thread shuts down if true.
      */
     private boolean                            quit                = false;
     
     /**
+     * MRCRequestDispatcher 引用
      * Reference to the MRCRequestDispatcher.
      */
     private final MRCRequestDispatcher               master;
@@ -169,6 +178,7 @@ public class OSDStatusManager extends LifeCycleThread implements VolumeChangeLis
                 "sending request for OSD list to DIR...");
             
             try {
+                // 请求目录中已注册OSD的列表
                 // request list of registered OSDs from Directory
                 // Service
                 knownOSDs = master.getDirClient().xtreemfs_service_get_by_type(null, RPCAuthentication.authNone,
@@ -194,6 +204,7 @@ public class OSDStatusManager extends LifeCycleThread implements VolumeChangeLis
     }
     
     /**
+     * 返回给定卷ID的可用OSD列表。
      * Returns the list of usable OSDs for the given volume id.
      * 
      * @param volumeId

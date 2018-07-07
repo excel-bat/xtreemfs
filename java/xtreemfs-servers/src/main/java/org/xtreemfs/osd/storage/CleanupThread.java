@@ -39,7 +39,10 @@ import org.xtreemfs.pbrpc.generatedinterfaces.MRCServiceClient;
 import org.xtreemfs.pbrpc.generatedinterfaces.OSD.XLocSetVersionState;
 
 /**
- *
+ *这不是常规阶段，而是扫描孤立文件的后台任务。
+ * 如果在MRC上删除文件但客户端无法在OSD中删除文件，我们就会得到所谓的僵尸。
+ * 要删除它们，OSD必须不时扫描其文件系统并检查MRC上的文件。
+ * 应该执行这些清理操作的频率和时间取决于系统的使用模式（例如，客户端在操作期间经常断开连接）。
  * @author bjko
  */
 public class CleanupThread extends LifeCycleThread {

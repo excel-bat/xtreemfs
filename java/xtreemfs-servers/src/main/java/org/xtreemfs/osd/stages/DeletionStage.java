@@ -21,6 +21,9 @@ import org.xtreemfs.osd.storage.FileMetadata;
 import org.xtreemfs.osd.storage.MetadataCache;
 import org.xtreemfs.osd.storage.StorageLayout;
 
+/**
+ * 此阶段是删除磁盘上已删除文件的对象。 这是在收到unlink RPC或文件关闭时直接完成的（请参阅PreprocStage）。
+ */
 public class DeletionStage extends Stage {
     
     public static final int      STAGEOP_DELETE_OBJECTS = 0;

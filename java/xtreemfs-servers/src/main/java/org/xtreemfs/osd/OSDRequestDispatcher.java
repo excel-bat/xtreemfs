@@ -143,7 +143,7 @@ public class OSDRequestDispatcher implements RPCServerRequestListener, LifeCycle
     protected final Map<Class<?>, OSDOperation>         internalEvents;
 
     protected final HeartbeatThread                     heartbeatThread;
-
+    //osd 默认配置
     protected final OSDConfig                           config;
 
     protected final DIRClient                           dirClient;
@@ -183,6 +183,7 @@ public class OSDRequestDispatcher implements RPCServerRequestListener, LifeCycle
     protected final AtomicLong                          numBytesTX, numBytesRX, numObjsTX, numObjsRX, numReplBytesRX,
             numReplObjsRX;
 
+    //可视化客户端协作
     protected final VivaldiStage                        vStage;
 
     protected final AtomicReference<VivaldiCoordinates> myCoordinates;
@@ -778,7 +779,10 @@ public class OSDRequestDispatcher implements RPCServerRequestListener, LifeCycle
         if (hdr.getMessageType() != MessageType.RPC_REQUEST) {
             rq.sendError(ErrorType.GARBAGE_ARGS, POSIXErrno.POSIX_ERROR_EIO,
                     "expected RPC request message type but got " + hdr.getMessageType());
+
             return;
+
+
         }
 
         final RPCHeader.RequestHeader rqHdr = hdr.getRequestHeader();

@@ -56,6 +56,16 @@ import org.xtreemfs.pbrpc.generatedinterfaces.OSDServiceConstants;
 
 import com.google.protobuf.Message;
 
+/**
+ * 分析传入的RPC请求并启动请求的匹配操作。
+ * 它还根据Operation解析请求参数（RPC消息）。
+ * 此外，它还解析并验证签名的功能，并确保客户端有权执行操作。
+ * 为了提高性能，PreprocStage保留了经过验证的功能和XLocation列表的缓存。
+ * PreprocStage还保存一个打开文件列表，每当访问文件（即文件的对象）时，这些文件都会被更新。
+ * 对于上次访问时间，定期检查该列表（大约每隔一分钟），并且将关闭已超时的文件。
+ * 这个关闭事件被发送到其他阶段，以允许他们清理他们的缓存。
+ * 由于POSIX要求仍然可以读取或写入仍然打开时删除的文件，因此close事件也用于最终删除已删除文件的数据。
+ */
 public class PreprocStage extends Stage {
     
     public final static int                                 STAGEOP_PARSE_AUTH_OFTOPEN = 1;
@@ -539,7 +549,12 @@ public class PreprocStage extends Stage {
         }
         
     }
-    
+
+    /**
+     * 解析请求，合法性校验
+     * @param rq
+     * @return
+     */
     private boolean parseRequest(OSDRequest rq) {
 
         RPCHeader hdr = rq.getRpcRequest().getHeader();

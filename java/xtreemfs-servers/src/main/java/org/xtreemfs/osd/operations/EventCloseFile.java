@@ -19,6 +19,7 @@ import org.xtreemfs.osd.stages.StorageStage.CreateFileVersionCallback;
 import org.xtreemfs.osd.storage.FileMetadata;
 
 /**
+ * EventCloseFile flush 内部的metadata cache，创建一个新的文件版本，如果版本
  * EventCloseFile flushes the internal metadata caches, creates a new file version if versioning / COW is enabled
  * and deletes the file along with its objects if the file has been marked for deletion. <br>
  * 

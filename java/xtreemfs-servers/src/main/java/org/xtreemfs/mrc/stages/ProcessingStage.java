@@ -77,7 +77,8 @@ import org.xtreemfs.pbrpc.generatedinterfaces.MRCServiceConstants;
 import com.google.protobuf.Descriptors.FieldDescriptor;
 
 /**
- * 
+ * 处理状态机，根据不同的状态，处理不同的请求
+ *
  * @author bjko
  */
 public class ProcessingStage extends MRCStage {

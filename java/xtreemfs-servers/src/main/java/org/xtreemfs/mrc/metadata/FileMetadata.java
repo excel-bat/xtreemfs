@@ -10,10 +10,16 @@ package org.xtreemfs.mrc.metadata;
 
 public interface FileMetadata {
     
-    /** frequently-changed metadata */
+    /**
+     * 频繁改变的metadata
+     * frequently-changed metadata
+     * */
     public static final byte FC_METADATA   = 0;
     
-    /** rarely-changed metadata */
+    /**
+     *  很少改变的
+     * rarely-changed metadata
+     * */
     public static final byte RC_METADATA   = 1;
     
     public long getId();

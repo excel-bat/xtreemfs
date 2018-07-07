@@ -30,7 +30,12 @@ import org.xtreemfs.pbrpc.generatedinterfaces.OSD.ObjectList;
 /**
  * 
  * 09.09.2008
- * 
+ * 从远程OSD获取复制文件的数据
+ * 只读复制允许用户以非常低的开销复制其不可变文件。
+ * 用户可以将文件设置为只读，这意味着它不能再被修改。
+ * 这允许用户在其他OSD上添加复制品，这些复制品可以是“完整”或“懒惰”复制品。
+ * 对于“完整”副本，OSD将自动获取该文件的所有对象。
+ * 对于“懒惰”副本，OSD仅在客户端尝试读取它们时才提取对象。 将添加“懒惰”复制品的额外预取。
  * @author clorenz
  */
 public class ReplicationStage extends Stage {

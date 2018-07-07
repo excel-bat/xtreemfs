@@ -29,6 +29,7 @@ public class OSD {
         try {
             // FIXME: pass UUID + useDIR
             dispatcher = new OSDRequestDispatcher(config);
+            //启动分发请求server、client
             dispatcher.start();
             
             final OSDRequestDispatcher ctrl = dispatcher;
@@ -86,7 +87,7 @@ public class OSD {
         
         Thread.currentThread().setName("OSD");
         
-        String cfgFile = (args.length > 0) ? args[0] : "./etc/xos/xtreemfs/osdconfig.test";
+        String cfgFile = (args.length > 0) ? args[0] : "../etc/xos/xtreemfs/osdconfig.test";
         OSDConfig config = new OSDConfig(cfgFile);
         
         config.setDefaults();

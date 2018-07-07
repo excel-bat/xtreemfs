@@ -28,6 +28,7 @@ import org.xtreemfs.pbrpc.generatedinterfaces.OSD.TruncateLog;
 import org.xtreemfs.pbrpc.generatedinterfaces.OSD.XLocSetVersionState;
 
 /**
+ * 从底层磁盘存储布局中抽象对象数据访问
  * Abstracts object data access from underlying on-disk storage layout.
  * 
  * @author bjko

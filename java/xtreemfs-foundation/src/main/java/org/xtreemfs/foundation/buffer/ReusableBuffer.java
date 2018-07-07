@@ -396,8 +396,10 @@ public final class ReusableBuffer {
         return buffer.getInt();
     }
 
-    public ReusableBuffer() {
+    public ReusableBuffer(boolean reusable) {
         super();
+        this.reusable = reusable;
+       this.parentBuffer = null;
     }
 
     /**

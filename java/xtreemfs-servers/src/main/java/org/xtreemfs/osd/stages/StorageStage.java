@@ -32,6 +32,11 @@ import org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes.OSDWriteResponse;
 import org.xtreemfs.pbrpc.generatedinterfaces.OSD.InternalGmax;
 import org.xtreemfs.pbrpc.generatedinterfaces.OSD.ReplicaStatus;
 
+/**
+ * StorageStage将请求分发到StorageThread 池。
+ * 请求的分配基于fileID，以确保单个文件的所有请求都由同一个线程处理。
+ * 这是避免跨多个线程共享文件元数据所必需的.StorageThread实现了实际的文件I.
+ */
 public class StorageStage extends Stage {
     
     private final StorageThread[] storageThreads;

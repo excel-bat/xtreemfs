@@ -9,6 +9,8 @@
 package org.xtreemfs.common.auth;
 
 /**
+ *
+ *
  * Thrown by an authentication provide when authentication is not
  * possible for any reason.
  * @author bjko
